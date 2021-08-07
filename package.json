@@ -1,0 +1,35 @@
+{
+  "name": "create-mernpress",
+  "version": "1.0.0",
+  "description": "create-mernpress-app boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+    "create-mernpress":"./create_mernpress.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/manlowtech/mernpress.git"
+  },
+  "keywords": [
+    "mernpress",
+    "cms",
+    "content",
+    "management",
+    "system",
+    "happy",
+    "blogging",
+    "blog",
+    "website",
+    "site"
+  ],
+  "author": "Manlow Charumbira aks @realManlow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manlowtech/mernpress/issues"
+  },
+  "homepage": "https://github.com/manlowtech/mernpress#readme"
+}
