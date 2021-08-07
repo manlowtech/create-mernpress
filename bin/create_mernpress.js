@@ -2,7 +2,7 @@ const {execSync} = require('child_process')
 const path = require('path')
 const fs = require('fs')
 
-if(ProcessingInstruction.argv.length < 3){
+if(process.argv.length < 3){
     console.log("you have to provide name for your project")
     console.log("For Example")
     console.log("npx create-mernpress app-name")
